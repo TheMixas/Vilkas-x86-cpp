@@ -116,7 +116,7 @@ _long_mode_start:
 	movw %ax, %es
 	
 	# Call the global constructors.
-	call _init
+	call _int
 
 	# Transfer control to the main kernel.
 	call kernel_main
@@ -126,3 +126,4 @@ _long_mode_start:
 1:	hlt
 	jmp 1b
 	
+i
