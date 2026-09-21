@@ -1,4 +1,4 @@
-# Vilkas x86
+# Vilkas x86 C++
 
 A 64-bit x86 kernel I'm writing from scratch in C++ by reading the OSDEV wiki, Intel and AMD manuals.
 
