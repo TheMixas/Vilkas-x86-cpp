@@ -5,6 +5,9 @@ A 64-bit x86 kernel I'm writing from scratch in C++ by reading the OSDEV wiki, I
 It boots via GRUB, switches the CPU into long mode, and handles CPU exceptions with
 a register dump.
 
+## Goal
+Reach simple user mode and storage.
+
 ## What works
 
 - Multiboot boot via GRUB, 32-bit stub switches to long mode (PAE, EFER.LME, CR0.PG)
